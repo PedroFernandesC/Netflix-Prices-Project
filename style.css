@@ -1,0 +1,102 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+.mini-container{
+    display:flex;
+}
+
+img {
+    padding-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+h1{
+    font-family: "Space Grotesk", sans-serif; 
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+h3{
+    font-family: "Space Grotesk", sans-serif;
+    float: inline-end;
+    margin-right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: none;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;    
+}
+
+h3:hover{
+    transform: scale(1.09);
+}
+
+.container1 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;  
+}
+
+
+.box{
+background-color: #C11119;
+border-radius: 5px;
+width: 270px;
+cursor: pointer;
+transition: all 0.5s ease;
+
+}
+.box:hover{
+    transform: scale(1.09);
+}
+
+.tipo-plano {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.preço{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 40px; 
+}
+
+.lista {
+    font-family: "Quicksand", sans-serif;
+    list-style: none;
+    padding: 0;
+    line-height: 1.7;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+footer{
+    margin-top: 100px;
+    font-family: "Quicksand", sans-serif;
+}
+
+
